@@ -1,0 +1,26 @@
+vim.cmd 'packadd paq-nvim'
+local paq = require'paq-nvim'.paq
+paq{'savq/paq-nvim', opt=true}
+
+paq 'neovim/nvim-lspconfig'
+paq 'tpope/vim-surround'
+paq 'b3nj5m1n/kommentary'
+paq 'kyazdani42/nvim-web-devicons'
+paq 'kyazdani42/nvim-tree.lua'
+paq 'phaazon/hop.nvim'
+paq 'nvim-lua/popup.nvim'
+paq 'nvim-lua/plenary.nvim'
+paq 'nvim-telescope/telescope.nvim'
+paq 'hrsh7th/nvim-compe'
+paq 'reedes/vim-colors-pencil'
+paq 'ayu-theme/ayu-vim'
+paq 'norcalli/snippets.nvim'
+paq 'windwp/nvim-autopairs'
+paq 'itchyny/lightline.vim'
+paq 'nvim-treesitter/nvim-treesitter'
+paq 'nvim-treesitter/nvim-treesitter-textobjects'
+paq 'karb94/neoscroll.nvim'
+paq 'yamatsum/nvim-cursorline'
+paq 'RishabhRD/popfix'
+paq 'RishabhRD/nvim-lsputils'
+
